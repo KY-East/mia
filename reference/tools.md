@@ -5,19 +5,19 @@
 ### Binance (币安)
 - **官网：**[binance.com](https://www.binance.com)
 - **用途：**现货+合约，综合交易
-- **优点：**流动性最好，币种最全
+- 流动性最好，币种最全
 - **手续费：**0.1%（现货）
 
 ### Bitget
 - **官网：**[bitget.com](https://www.bitget.com)
 - **用途：**合约交易、跟单交易
-- **优点：**跟单功能领先，合约体验好
+- 跟单功能领先，合约体验好
 - **手续费：**0.085%（现货）
 
 ### Bybit
 - **官网：**[bybit.com](https://www.bybit.com)
 - **用途：**合约交易
-- **优点：**新手友好，客服好
+- 新手友好，客服好
 - **手续费：**0.1%（现货）
 
 ---
@@ -27,20 +27,20 @@
 ### Phantom
 - **官网：**[phantom.app](https://phantom.app)
 - **用途：**Solana链专用钱包
-- **优点：**界面友好，速度快，Gas费便宜
-- **适合：**买Solana链上的Meme币
+- 界面友好，速度快，Gas费便宜
+- 适用场景：买Solana链上的Meme币
 
 ### MetaMask
 - **官网：**[metamask.io](https://metamask.io)
 - **用途：**EVM链通用钱包（以太坊、BSC等）
-- **优点：**兼容性最好，生态完善
-- **适合：**DeFi、以太坊生态
+- 兼容性最好，生态完善
+- 适用场景：DeFi、以太坊生态
 
 ### Bitget Wallet
 - **官网：**Bitget App内置
 - **用途：**多链钱包
-- **优点：**支持多链，CEX和链上无缝切换
-- **适合：**多链玩家
+- 支持多链，CEX和链上无缝切换
+- 适用场景：多链玩家
 
 ---
 
@@ -118,22 +118,22 @@
 ### Raydium (Solana)
 - **官网：**[raydium.io](https://raydium.io)
 - **用途：**Solana链DEX
-- **优点：**流动性最好，大部分Solana Meme币在这里
+- 流动性最好，大部分Solana Meme币在这里
 
 ### Jupiter (Solana)
 - **官网：**[jup.ag](https://jup.ag)
 - **用途：**Solana链DEX聚合器
-- **优点：**自动找最优价格，省钱
+- 自动找最优价格，省钱
 
 ### Uniswap (以太坊)
 - **官网：**[uniswap.org](https://uniswap.org)
 - **用途：**以太坊链DEX
-- **优点：**最老牌，流动性最深
+- 最老牌，流动性最深
 
 ### 1inch (多链)
 - **官网：**[1inch.io](https://1inch.io)
 - **用途：**多链DEX聚合器
-- **优点：**对比多个DEX，找最优价格
+- 对比多个DEX，找最优价格
 
 ---
 
@@ -147,12 +147,12 @@
 ### 1Password
 - **官网：**[1password.com](https://1password.com)
 - **用途：**密码管理器
-- **优点：**安全，跨平台，家庭共享
+- 安全，跨平台，家庭共享
 
 ### Bitwarden
 - **官网：**[bitwarden.com](https://bitwarden.com)
 - **用途：**开源密码管理器
-- **优点：**免费，开源，安全
+- 免费，开源，安全
 
 ---
 
@@ -226,7 +226,7 @@
 
 ### Fire
 - **用途：**钱包多开管理
-- **适合：**需要管理多个钱包的用户
+- 适用场景：需要管理多个钱包的用户
 
 ---
 
