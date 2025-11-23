@@ -7,10 +7,10 @@ hero:
   tagline: 专业知识普及 + 机制详解 + 90天执行计划
   actions:
     - theme: brand
-      text: 开始学习 →
+      text: 🚀 开始学习
       link: /knowledge/module-1
     - theme: alt
-      text: 查看执行计划
+      text: 📅 查看执行计划
       link: /execution/day-1-7
 
 features:

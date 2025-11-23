@@ -7,7 +7,10 @@ export default defineConfig({
   ignoreDeadLinks: true,
   
   head: [
-    ['meta', { name: 'theme-color', content: '#646cff' }]
+    ['meta', { name: 'theme-color', content: '#646cff' }],
+    ['meta', { name: 'og:type', content: 'website' }],
+    ['meta', { name: 'og:title', content: 'Mia 2.0 - 实盘交易知识体系' }],
+    ['meta', { name: 'og:description', content: '专业知识普及 + 机制详解 + 90天执行计划' }]
   ],
 
   themeConfig: {
