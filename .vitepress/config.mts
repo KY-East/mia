@@ -4,6 +4,7 @@ export default defineConfig({
   title: "Mia 2.0",
   description: "实盘交易IP - 完整知识体系文档",
   lang: 'zh-CN',
+  ignoreDeadLinks: true,
   
   head: [
     ['meta', { name: 'theme-color', content: '#646cff' }]
