@@ -185,7 +185,7 @@ git push origin main
 
 ## 📄 许可证
 
-MIT License - 详见 [LICENSE](LICENSE) 文件
+MIT License
 
 ## 📧 联系方式
 
@@ -199,4 +199,5 @@ MIT License - 详见 [LICENSE](LICENSE) 文件
 **💪 记住：** 市场永远在，保护好本金才有机会！
 
 **🚀 Good luck!**
+
 
