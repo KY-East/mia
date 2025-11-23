@@ -72,9 +72,9 @@
 ```
 
 **例子：**
-- 保证金：$1,000
-- 杠杆：10倍
-- 仓位价值：$1,000 × 10 = $10,000
+保证金：$1,000  
+杠杆：10倍  
+仓位价值：$1,000 × 10 = $10,000  
 
 ### 爆仓价格
 
@@ -84,9 +84,9 @@
 ```
 
 **例子（10倍杠杆）：**
-- 开仓价：$100,000
-- 做多爆仓价：$100,000 × (1 - 1/10) = $90,000
-- 做空爆仓价：$100,000 × (1 + 1/10) = $110,000
+开仓价：$100,000  
+做多爆仓价：$100,000 × (1 - 1/10) = $90,000  
+做空爆仓价：$100,000 × (1 + 1/10) = $110,000  
 
 ### 收益率计算
 
@@ -95,10 +95,10 @@
 ```
 
 **例子（10倍杠杆做多）：**
-- 开仓价：$100,000
-- 平仓价：$105,000
-- 涨幅：5%
-- 收益率：5% × 10 = 50%
+开仓价：$100,000  
+平仓价：$105,000  
+涨幅：5%  
+收益率：5% × 10 = 50%  
 
 ### 资金费率计算
 
@@ -107,9 +107,9 @@
 ```
 
 **例子：**
-- 持仓价值：$100,000
-- 资金费率：+0.01%
-- 支付：$100,000 × 0.01% = $10
+持仓价值：$100,000  
+资金费率：+0.01%  
+支付：$100,000 × 0.01% = $10  
 
 ---
 
@@ -117,26 +117,26 @@
 
 ### 交易所
 
-- [Binance](https://www.binance.com)
-- [Bitget](https://www.bitget.com)
-- [Bybit](https://www.bybit.com)
+[Binance](https://www.binance.com)  
+[Bitget](https://www.bitget.com)  
+[Bybit](https://www.bybit.com)  
 
 ### 数据工具
 
-- [CoinMarketCap](https://coinmarketcap.com) - 市场数据
-- [CoinGecko](https://www.coingecko.com) - 市场数据
-- [DEXScreener](https://dexscreener.com) - 链上新币
-- [TradingView](https://www.tradingview.com) - K线分析
+[CoinMarketCap](https://coinmarketcap.com) - 市场数据  
+[CoinGecko](https://www.coingecko.com) - 市场数据  
+[DEXScreener](https://dexscreener.com) - 链上新币  
+[TradingView](https://www.tradingview.com) - K线分析  
 
 ### 安全工具
 
-- [RugCheck](https://rugcheck.xyz) - 合约安全检查
-- [Token Sniffer](https://tokensniffer.com) - 代币安全评分
+[RugCheck](https://rugcheck.xyz) - 合约安全检查  
+[Token Sniffer](https://tokensniffer.com) - 代币安全评分  
 
 ### 钱包
 
-- [Phantom](https://phantom.app) - Solana钱包
-- [MetaMask](https://metamask.io) - EVM链钱包
+[Phantom](https://phantom.app) - Solana钱包  
+[MetaMask](https://metamask.io) - EVM链钱包  
 
 ---
 
@@ -144,9 +144,9 @@
 
 ### UTC时间（交易所常用）
 
-- UTC 0:00 = 北京时间 08:00
-- UTC 8:00 = 北京时间 16:00
-- UTC 16:00 = 北京时间 00:00（次日）
+UTC 0:00 = 北京时间 08:00  
+UTC 8:00 = 北京时间 16:00  
+UTC 16:00 = 北京时间 00:00（次日）  
 
 ### 资金费率结算时间
 
