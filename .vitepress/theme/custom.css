@@ -1,0 +1,260 @@
+/* 自定义样式 */
+
+/* 任务清单样式 */
+.task-list {
+  background: var(--vp-c-bg-soft);
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 8px;
+  padding: 16px;
+  margin: 20px 0;
+}
+
+.task-list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--vp-c-divider);
+}
+
+.task-list-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--vp-c-text-1);
+}
+
+.task-list-progress {
+  font-size: 14px;
+  color: var(--vp-c-text-2);
+  background: var(--vp-c-brand-soft);
+  padding: 4px 12px;
+  border-radius: 12px;
+}
+
+.task-item {
+  display: flex;
+  align-items: flex-start;
+  padding: 8px 0;
+  transition: all 0.2s;
+}
+
+.task-item:hover {
+  background: var(--vp-c-bg-mute);
+  margin: 0 -8px;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.task-checkbox {
+  width: 20px;
+  height: 20px;
+  margin-right: 12px;
+  margin-top: 2px;
+  cursor: pointer;
+  accent-color: var(--vp-c-brand-1);
+}
+
+.task-content {
+  flex: 1;
+  color: var(--vp-c-text-1);
+  line-height: 1.6;
+}
+
+.task-item.completed .task-content {
+  text-decoration: line-through;
+  color: var(--vp-c-text-3);
+  opacity: 0.7;
+}
+
+.task-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.task-btn {
+  padding: 6px 12px;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 4px;
+  background: var(--vp-c-bg);
+  color: var(--vp-c-text-2);
+  cursor: pointer;
+  font-size: 13px;
+  transition: all 0.2s;
+}
+
+.task-btn:hover {
+  border-color: var(--vp-c-brand-1);
+  color: var(--vp-c-brand-1);
+}
+
+/* 进度追踪器样式 */
+.progress-tracker {
+  background: linear-gradient(135deg, var(--vp-c-bg-soft) 0%, var(--vp-c-bg-mute) 100%);
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 12px;
+  padding: 24px;
+  margin: 20px 0;
+}
+
+.progress-header {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.progress-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--vp-c-text-1);
+  margin-bottom: 8px;
+}
+
+.progress-subtitle {
+  font-size: 14px;
+  color: var(--vp-c-text-2);
+}
+
+.progress-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.stat-card {
+  background: var(--vp-c-bg);
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+}
+
+.stat-value {
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--vp-c-brand-1);
+  margin-bottom: 4px;
+}
+
+.stat-label {
+  font-size: 14px;
+  color: var(--vp-c-text-2);
+}
+
+.progress-bar-container {
+  margin-bottom: 24px;
+}
+
+.progress-bar-label {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: var(--vp-c-text-2);
+}
+
+.progress-bar-bg {
+  height: 24px;
+  background: var(--vp-c-bg-mute);
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+}
+
+.progress-bar-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--vp-c-brand-1), var(--vp-c-brand-2));
+  border-radius: 12px;
+  transition: width 0.5s ease;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 12px;
+  color: white;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.module-progress-list {
+  display: grid;
+  gap: 12px;
+}
+
+.module-progress-item {
+  background: var(--vp-c-bg);
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.module-name {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--vp-c-text-1);
+  margin-bottom: 8px;
+}
+
+.module-progress-bar {
+  height: 8px;
+  background: var(--vp-c-bg-mute);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.module-progress-fill {
+  height: 100%;
+  background: var(--vp-c-brand-1);
+  border-radius: 4px;
+  transition: width 0.3s ease;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.action-btn {
+  flex: 1;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+
+.action-btn-primary {
+  background: var(--vp-c-brand-1);
+  color: white;
+}
+
+.action-btn-primary:hover {
+  background: var(--vp-c-brand-2);
+  transform: translateY(-2px);
+}
+
+.action-btn-secondary {
+  background: var(--vp-c-bg);
+  color: var(--vp-c-text-1);
+  border: 1px solid var(--vp-c-divider);
+}
+
+.action-btn-secondary:hover {
+  border-color: var(--vp-c-brand-1);
+  color: var(--vp-c-brand-1);
+}
+
+/* 响应式 */
+@media (max-width: 768px) {
+  .progress-stats {
+    grid-template-columns: 1fr;
+  }
+  
+  .action-buttons {
+    flex-direction: column;
+  }
+}
+
